@@ -216,6 +216,7 @@ nav {
   text-align: center;
   font-family: $helveticaNeue;
   font-size: 18px;
+  font-weight: bold;
 
   @include mobile {
     float: none;
