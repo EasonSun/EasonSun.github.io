@@ -14,4 +14,4 @@ In this half semster-long project I took a closer look at the Neural Style algor
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
-![Foo]({{ site.baseurl }}/_posts/ECE547_Term_Project_tot.png)
+![Foo]({{ site.baseurl }}/images/ECE547_Term_Project_tot.png)
