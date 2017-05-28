@@ -2,7 +2,10 @@
 layout: post
 title: You're up and running!
 ---
-## Projects
+## About Me
+Hi! I am Master student at the [Computer Science Department](http://cs.illinois.edu) of [University of Illinois at Urbana-Champaign](http://illinois.edu). I am broadly interested in data engineering, machine learning and data mining. I am on the job market for full-time opportunity in Fall 2017.
+
+## Projects 
 
 ### Autonomous Driving
 My team and I developed pedestrain detection and auto braking for a by-wire car provided by [AutonomouStuff](https://autonomoustuff.com). The backend model is a fine-tuned TensorFlow implementation of the Single Shot Detection algorithm. When this model detects a pedestrain, the controlling code will further test if this pedestrain is in the region that requires braking. If yes, this code will publish the ROS topic to signal the car to brake. When the pedestrain passes the region for the car to stop, the car will resume running. Chech out our Github repo [here](https://github.com/tensorpro/MAAV)"
