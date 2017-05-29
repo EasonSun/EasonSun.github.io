@@ -272,10 +272,9 @@ nav {
   }
 }
 
-.videowrapper { 
-  float: none;
-  clear: both;
-  margin: 15px 0;
+iframe {
+    display: block;
+    margin: auto;
 }
 
 .wrapper-footer {
