@@ -1,6 +1,8 @@
 ---
 layout: post
 title: You're up and running!
+js_stock:
+- graphs/stock_timeline.js
 ---
 ## About Me
 Hi! I am Master student at the [Computer Science Department](http://cs.illinois.edu) of [University of Illinois at Urbana-Champaign](http://illinois.edu). I am broadly interested in data engineering, machine learning and data mining. I am on the job market for full-time opportunity in Fall 2017.
@@ -14,5 +16,13 @@ My team and I developed pedestrain detection and auto braking for a by-wire car 
 
 ### Image Processing
 In this half semster-long project I took a closer look at the Neural Style algorithm when applying to image segments. Ideally if someone would like to see different styles at different segments of an image, say a skectch style foreground and a Vangah's stary night style background, one can apply the original Neural Style algorithm to different segments. But my study shows artifacts and style blending harms the result of this simple approach. My study then fine-tunes this approach and achieves promising improvements. Full report [here]({{ site.baseurl }}/images/ECE547_Term_Project.pdf).
+
+<style>
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+</style>
+<div id="chartdiv"></div>
 
 ![Foo]({{ site.baseurl }}/images/ECE547_Term_Project_tot.png)
